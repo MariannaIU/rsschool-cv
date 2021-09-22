@@ -18,4 +18,14 @@
 	*django: RegDance for Ellionis dance school http://j1045543.myjino.ru/regform/
 	*django: PetShop e-commerce http://petshop.j1045543.myjino.ru/
 	*django: MyCosmetics social network
-	*django: WishList app https://github.com/MariannaIU/wishlist
+	*django: WishList app https://github.com/MariannaIU/wishlist7. ##Education
+7. ##Education
+#####
+	*Higher technical education, Baltik Federal University(Kaliningrad), Physics faculty, radiophysicist
+	*Python course: https://letpy.com
+	*Django workshop https://thinknetica.com/
+8. ##English
+##### A2 level
+	
+
+
