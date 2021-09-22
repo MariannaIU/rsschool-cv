@@ -13,3 +13,9 @@
 	*Languages: Python, HTML, CSS
 	*Frameworks: django
 	*Tools: git, PyCharm
+6. ##Job experience
+#####
+	*django: RegDance for Ellionis dance school http://j1045543.myjino.ru/regform/
+	*django: PetShop e-commerce http://petshop.j1045543.myjino.ru/
+	*django: MyCosmetics social network
+	*django: WishList app https://github.com/MariannaIU/wishlist
