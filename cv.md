@@ -10,7 +10,7 @@
 3. 
 ### About:
 * My goal is to become a professional full-stack developer. 
-* I`ve been studying back-end development for a year and now I` d like to learn front-end development to make functional and sightly web-apps.
+* I have been studying back-end development for a year and now I would like to learn front-end development to make functional and sightly web-apps.
 
 4. 
 ### Skills
@@ -34,10 +34,10 @@ function maskify(cc) {
 
 6. 
 ### Job experience
-* django:RegDance for Ellionis dance school http://j1045543.myjino.ru/regform/
-* django: PetShop e-commerce http://petshop.j1045543.myjino.ru/
+* django: [RegDance for Ellionis dance school](http://j1045543.myjino.ru/regform/)
+* django: [PetShop e-commerce](http://petshop.j1045543.myjino.ru/)
 * django: MyCosmetics social network
-* django: WishList app https://github.com/MariannaIU/wishlist
+* django: [WishList app](https://github.com/MariannaIU/wishlist)
 
 7. 
 ### Education
