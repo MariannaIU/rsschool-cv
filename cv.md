@@ -18,7 +18,6 @@
 	*Tools: git, PyCharm
 
 5. ##Code example
-
 ```// return masked string
 function maskify(cc) {
   if (cc.length>4) {
