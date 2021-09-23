@@ -1,1 +1,0 @@
-https://MariannaIU.github.io/rsschool-cv/cv
