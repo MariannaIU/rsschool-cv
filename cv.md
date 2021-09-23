@@ -13,6 +13,18 @@
 	*Languages: Python, HTML, CSS
 	*Frameworks: django
 	*Tools: git, PyCharm
+5. ##Code example
+```// return masked string
+function maskify(cc) {
+  if (cc.length>4) {
+    for (let i=0; i<cc.length-4; i++){
+      cc = cc.replace(cc[i], '#');
+    }
+    return cc;
+  }
+    return cc;
+}
+```
 6. ##Job experience
 #####
 	*django: RegDance for Ellionis dance school http://j1045543.myjino.ru/regform/
