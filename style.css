@@ -1,0 +1,38 @@
+.main-area {
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Tahoma  sans-serif; /* Семейство шрифтов */
+    font-size: 16pt; /* Размер основного шрифта в пунктах  */
+    background-color: #ecfaf1; /* Цвет фона веб-страницы */
+    color: #333; /* Цвет основного текста */
+}
+
+.img {
+    position: center;
+}
+
+.feature {
+
+}
+
+h2 {
+  color: #214f2c; /* Цвет заголовка */
+  font-size: 24pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+
+h3 {
+  margin-left: 10px; /* Отступ слева в пикселах */
+  color: #214f2c; /* Цвет заголовка */
+  font-size: 20pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+
+.feature-text {
+  text-align: justify-all; /* Выравнивание по ширине */
+  margin-left: 20px; /* Отступ слева в пикселах */
+  margin-right: 40px; /* Отступ справа в пикселах */
+}
