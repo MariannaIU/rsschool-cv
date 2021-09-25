@@ -1,1 +1,1 @@
-https://MariannaIU.github.io/rsschool-cv/cv
+https://MariannaIU.github.io/rsschool-cv/
