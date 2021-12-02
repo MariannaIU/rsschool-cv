@@ -1,73 +1,163 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset=UTF-8>
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
-  </head>
-  <body>
-    <main class="main-area">
-      <p class="img" ><img src="images/photo.jpg" width="200" height="200" alt=""></p>
-      <section class="feature">
-        <h2 class="feature-title">Marianna Iuzvovich</h2>
-        <p class="feature-text">Kaliningrad, Russia</p>
 
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">Contacts:</h3>
-        <ul class="feature-text">
-          <li><b>email:</b> marianna.iuzvovich@gmail.com</li>
-          <li><b>github:</b> https://github.com/MariannaIU/rsschool-cv.git</li>
-          <li><b>discord:</b> MariannaIU#8627</li>
-        </ul>
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">About:</h3>
-        <p class="feature-text">My goal is to become a professional full-stack developer. I have been studying back-end development for a year and now I would like to learn front-end development to make functional and sightly web-apps.</p>
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">Skills:</h3>
-        <ul class="feature-text">
-          <li><b>Languages: </b> Python, HTML, CSS</li>
-          <li><b>Frameworks: </b> django</li>
-          <li><b>Tools: </b> git, PyCharm</li>
-        </ul>
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">Code example</h3>
-        <p class="feature-text">// return masked string<br>
-        <code>function maskify(cc) {
-          if (cc.length>4) {
-            for (let i=0; i< cc.length-4; i++){
-              cc = cc.replace(cc[i], '#');
-            }
-            return cc;
-          }
-            return cc;
-        }</code></p>
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">Job experience:</h3>
-        <ul class="feature-text">
-          <li>django: <a href="http://j1045543.myjino.ru/regform/">RegDance for Ellionis dance school</a></li>
-          <li>django: <a href="http://petshop.j1045543.myjino.ru/">PetShop e-commerce</a></li>
-          <li>django: MyCosmetics social network</li>
-          <li>django: <a href="https://github.com/MariannaIU/wishlist">WishList app</a></li>
-        </ul>
-      </section>
-      <section class="feature">
-        <h3 class="feature-title">Education</h3>
-        <ul class="feature-text">
-          <li>Higher technical education, Baltik Federal University(Kaliningrad), Physics faculty, radiophysicist</li>
-          <li><a href="https://letpy.com">Python online course: </a></li>
-          <li><a href="https://thinknetica.com/">Django online workshop </a></li>
-          <li>Self-education by books</li>
-        </ul>
-      </section>
-      <section class="feature">
-        <h3>English</h3>
-        <p>A2 level</p>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container-centered">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./images/Portrait.jpg" alt="Portrait" width="204" height="204">
+          <h1>Marianna Iuzvovich</h1>
+          <h2>Fullstack Developer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="./icons/phone.svg" alt="Phone Icon" width="30" height="30">
+                <p>+7(9062) 30-03-22</p>
+              </li>
+              <li>
+                <img src="./icons/email.svg" alt="Email Icon" width="30" height="30">
+                <p>marianna.iuzvovich@gmail.com</p>
+              </li>
+              <li>
+                <img src="./icons/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                <p>@MariannaIU</p>
+              </li>
+              <li>
+                <img src="./icons/github.svg" alt="GitHub Icon" width="30" height="30">
+                <a href="https://github.com/MariannaIU/rsschool-cv.git">GitHub</a>
+              </li>
+              <li>
+                <img src="./icons/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+                <a href="https://www.linkedin.com/in/marianna-iuzvovich-119592211/">LinkedIn</a>
+              </li>
+			  <li>
+                <img src="./icons/discord.svg" alt="Discord Icon" width="30" height="30">
+                <p>MariannaIU#8627</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript</li>
+			  <li>Python, Django Framework</li>
+              <li>Git, GitHub</li>
+              <li>PyCharm, VS Code</li>
+              <li>Adobe Photoshop</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>Intermediate</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">Spanish</p>
+                <p>Basic</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <h3>About Myself</h3>
+          </div>
+          
+		  <p>Previously, I was involved in the technical support of a government organization. 
+		  My work was related to setting up and configuring servers and user workstations.</p>
+		  <p>My goal now is to become a professional full-stack developer. I have been studying back-end development for a couple of years. 
+		  I've already created several small apps, an online pet store and a dance studio app including application architecture development, database design and deploy.</p>
+		  <p>Recently I started studying front-end development to make functional and sightly web apps.</p>
+
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Higher technical education, Baltik Federal University (Kaliningrad, Russia)</strong></p>
+          <p>Physics Faculty</p>
+          <p>Years: 2001 - 2006</p>
+          <p>Specialization: Radiophysics, Bachelor's degree</p>
+        </section>
+		<section class="courses">
+          <div class="sub-header">
+            <h3>Working</h3>
+          </div>
+          <ul>
+            <li><a href="https://ellionis.online/">django: RegDance for Ellionis dance school</a></li>
+			<li><a href="http://petshop.j1045543.myjino.ru/">django: PetShop e-commerce</a></li>
+            <li>django: MyCosmetics social network</li>
+            <li><a href="https://github.com/MariannaIU/wishlist">django: WishList app</a></li>
+          </ul>
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li><a href="https://letpy.com">Python</a></li>
+			<li>HTML and CSS Tutorials on w3schools</li>
+            <li>JavaScript by learnjavascript.ru</li>
+            <li>RS Schools «JavaScript/Front-end.»</li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <h3>Code example</h3>
+          </div>
+          <p><strong>KATA from CODEWARS:  Return masked string</p>
+          <pre>
+            <code>
+function maskify(cc) {
+	if (cc.length>4) { 
+		for (let i=0; i< cc.length-4; i++){ 
+			cc = cc.replace(cc[i], '#'); 
+		} 
+		return cc; 
+	} 
+	return cc; 
+}
+			
+			</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/MariannaIU">
+        <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2021</p>
+      <a href="https://rs.school/js/">
+        <img src="./icons/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
+</body>
+
 </html>
